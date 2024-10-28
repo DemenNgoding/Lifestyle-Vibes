@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Poppins:wght@400;600&display=swap");
+
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  overflow-x: hidden;
+}
+
+.full-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.full-page h1 {
+  font-size: 3rem;
+}
+
+.full-page p {
+  font-size: 1.25rem;
+}
+
+.mission-section {
+  background-color: #588b8b;
+}
+
+.mission-section h1 {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.mission-section .highlight {
+  color: #ffd5c2;
+}
+
+.about-us-section {
+  background-color: #ffffff;
+}
+
+.values-section {
+  background-color: #ffd5c2;
+  color: #c8553d;
+}
+
+.values-section .value-box {
+  background-color: #ffffff;
+  border: 1px solid #c8553d;
+  border-radius: 8px;
+}
+
+.team-section h3 {
+  color: #588b8b;
+}
+
+.team-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.accordion-button {
+  background-color: #f28f3b;
+  color: #ffffff;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.footer {
+  background-color: #f28f3b;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+
+  .full-page {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .full-page h1 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+
+  .full-page p {
+    font-size: 1rem;
+  }
+
+  .carousel-container {
+    order: -1;
+  }
+}
